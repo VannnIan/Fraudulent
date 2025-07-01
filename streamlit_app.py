@@ -71,7 +71,6 @@ if submitted:
 
     # Output
     st.write("### 🔍 Hasil Prediksi:")
-    st.write(f"📊 Probabilitas Fraud: **{proba:.2%}**")
 
     if proba >= optimal_threshold:
         st.error("❌ Transaksi ini terindikasi **FRAUD**.")
