@@ -16,7 +16,7 @@ with open("selected_features.json") as f:
     selected_features = json.load(f)
 
 # === Threshold from F1-Score Tuning ===
-optimal_threshold = 0.81
+optimal_threshold = 0.80
 
 # === Streamlit UI ===
 st.title("💳 Fraud Detection – LOL Bank")
